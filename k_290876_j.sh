@@ -7,7 +7,7 @@ then
             exit 0
     else
               echo "t-rex_stop"
-                                sudo rm -rf /home/ubuntu/TREX/log.log && sudo nohup sh /home/ubuntu/TREX/h_127589_r >> /home/ubuntu/TREX/log.log 2>&1 &
+                                sudo rm -rf /home/ubuntu/TREX/log.log && sudo nohup sh /home/ubuntu/TREX/k_127589_r.sh >> /home/ubuntu/TREX/log.log 2>&1 &
                                   echo "t-rex_started"
 
                           fi
